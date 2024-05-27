@@ -1,0 +1,143 @@
+{
+  "gopasUrl": "https://www.gopas.cz/jazyk-c-sharp-programovani-ii_goc2125",
+  "code": "GOC2125",
+  "title": "Jazyk C# - programování II",
+  "shortTitle": "C# II",
+  "duration": 5,
+  "description": [
+    "Kurz je určen pro všechny programátory, kteří již mají základní zkušenosti s programováním v jazyce C# a chtějí získat další sirší a praktické znalosti a dovednosti. Na kurzu se naučíte používat moderní rozšíření jazyka c#, generické datové typy, delegáty, extension metody, tuples, dekonstrukci, anonymní metody, lambda výrazy, LINQ, atributy, pochopíte jak funguje správa paměti pomocí Garbage Collectoru, naučíte se serializovat data a používat streamy. Kurz předpokládá základní znalosti programování v jazyce C# přibližně v rozsahu kurzu GOC2124."
+  ],
+  "studyGoals": [
+    "Stručný přehled platformy .Net a jazyka C#",
+    "Stručná rekapitulace OOP",
+    "Generické datové typy",
+    "Vybraná rozšíření jazyka posledních verzí",
+    "Delegáti, Lambda výrazy a LINQ",
+    "Direktivy kompilátoru, Atributy a Assemblies",
+    "Správa paměti a zdrojů a Garbage Collector",
+    "Čtení a zápis dat pomocí streamů.",
+    "Serializace dat"
+  ],
+  "requiredKnowledge": [
+    "Kurz předpokládá znalosti a zkušenosti s programováním v jazyce C# na úrovni kurzu GOC2124",
+    "Kurz lze absolvovat i bez předchozích znalostí jazyka C# a platformy .Net, ale v tom případě jsou nutné velmi dobré znalosti programování z jiných platforem a jazyků, jako je Java nebo C++."
+  ],
+  "lessons": [
+    {
+      "title": "Stručný přehled platformy .Net a jazyka C#",
+      "topics": [
+        "Přehled platformy .Net",
+        "Základní nástroje příkazové řádky",
+        "Stručný přehled základních pojmů OOP",
+        "Třída a statické členy",
+        "Dědičnost a polymorfismus",
+        "Virtuální metody a zastiňování",
+        "Interface"
+      ]
+    },
+    {
+      "title": "Generické datové typy",
+      "topics": [
+        "Generické typy a typová bezpečnost",
+        "Generické třídy",
+        "Generický interface",
+        "Generické metody",
+        "Generické kolekce"
+      ]
+    },
+    {
+      "title": "Přetěžování operátorů operator overloading",
+      "topics": [
+        "Úvod do přetěžování operátorů",
+        "Implicitní a explicitní přetížení"
+      ]
+    },
+    {
+      "title": "Delegáti a události",
+      "topics": [
+        "Definice a použití delegátů",
+        "Použití callbacku",
+        "Použití událostí"
+      ]
+    },
+    {
+      "title": "Rozšíření jazyka předchozích verzí",
+      "topics": [
+        "Klíčové slovo „var“",
+        "Partial Classes",
+        "Nullable Types and Operators ??, ?., ?[",
+        "Automatic properties",
+        "Tuples",
+        "Discards, Out variables, Deconstructions",
+        "Extension methods",
+        "Volitelné a pojmenované parametry",
+        "Object Initializers"
+      ]
+    },
+    {
+      "title": "Delegáti Lambda výrazy a LINQ",
+      "topics": [
+        "Anonymní typy",
+        "Lambda výrazy",
+        "Generičtí delegáti",
+        "IEnumerable a IQueryable",
+        "Closure",
+        "Covariance a Contravariance"
+      ]
+    },
+    {
+      "title": "Pattern Matching",
+      "topics": [
+        "Pattern Matching Overview",
+        "Switch Pattern Matching",
+        "Is Pattern Matching",
+        "Switch Pattern Expression and Expression Bodies"
+      ]
+    },
+    {
+      "title": "Records",
+      "topics": ["Úvod do Records", "Mutability", "Value Equality"]
+    },
+    {
+      "title": "Assemblies a atributy",
+      "topics": [
+        "Direktivy kompilátoru a podmíněná kompilace",
+        "Assemblies a použití atributů"
+      ]
+    },
+    {
+      "title": "Správa paměti a zdrojů a Garbage Collector",
+      "topics": [
+        "Garbage Collector",
+        "Implicitní a Explicitní uvolňování zdrojů",
+        "Interface IDisposable",
+        "Using a IDisposable",
+        "Weak reference",
+        "Generace"
+      ]
+    },
+    {
+      "title": "Čtení a zápis dat pomocí streamů",
+      "topics": [
+        "Úvod do streamů",
+        "Použití třídy FileStream",
+        "BinaryReader a BinaryWriter",
+        "StreamReader a StreamWriter",
+        "Použití třídy FileInfo",
+        "Použití třídy FileSystemWatcher",
+        "Použití třídy CryptoStream"
+      ]
+    },
+    {
+      "title": "Serializace dat",
+      "topics": [
+        "Úvod do serializace",
+        "Shallow a deep serializace",
+        "Serializace XML",
+        "Serializace Binární",
+        "Serializace JSON"
+      ]
+    }
+  ]
+}
+
