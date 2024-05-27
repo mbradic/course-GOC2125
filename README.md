@@ -2,4 +2,6 @@
 
 ## //TODO
 
-- [x] Create presentation project
+- [x] Presentation project created
+- [x] Icon changed
+- [ ] change title
