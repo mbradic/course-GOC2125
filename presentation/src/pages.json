@@ -1,0 +1,26 @@
+[
+  {
+    "name": "description",
+    "path": "description",
+    "label": "Anotace",
+    "template": "text"
+  },
+  {
+    "name": "studyGoals",
+    "path": "study-goals",
+    "label": "Co vás naučíme",
+    "template": "list"
+  },
+  {
+    "name": "requiredKnowledge",
+    "path": "required-knowledge",
+    "label": "Požadované znalosti",
+    "template": "list"
+  },
+  {
+    "name": "lessons",
+    "path": "lessons",
+    "label": "Osnova",
+    "template": "lessons"
+  }
+]
