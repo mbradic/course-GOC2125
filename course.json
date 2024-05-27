@@ -1,7 +1,8 @@
 {
   "gopasUrl": "https://www.gopas.cz/jazyk-c-sharp-programovani-ii_goc2125",
   "code": "GOC2125",
-  "title": "Jazyk C# – programování II",
+  "title": "Jazyk C# - programování II",
+  "shortTitle": "C# II",
   "duration": 5,
   "description": [
     "Kurz je určen pro všechny programátory, kteří již mají základní zkušenosti s programováním v jazyce C# a chtějí získat další sirší a praktické znalosti a dovednosti. Na kurzu se naučíte používat moderní rozšíření jazyka c#, generické datové typy, delegáty, extension metody, tuples, dekonstrukci, anonymní metody, lambda výrazy, LINQ, atributy, pochopíte jak funguje správa paměti pomocí Garbage Collectoru, naučíte se serializovat data a používat streamy. Kurz předpokládá základní znalosti programování v jazyce C# přibližně v rozsahu kurzu GOC2124."

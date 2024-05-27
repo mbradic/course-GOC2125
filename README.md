@@ -4,4 +4,5 @@
 
 - [x] Presentation project created
 - [x] Icon changed
-- [ ] change title
+- [x] Title changed
+- [ ] Create home page
