@@ -7,6 +7,7 @@ import course from "./course.json";
 import pages from "./pages.json";
 import Lessons from "./Lessons.jsx";
 
+
 function getElement(page) {
   switch (page.template) {
     case "text":
@@ -26,8 +27,17 @@ function getElement(page) {
   }
 }
 
-function Lesson({lesson}) {
-  return <ul>{lesson.topics.map(t=><li key={t.path}>{t.shortTitle}</li>)}</ul>
+function Lesson({ lesson }) {
+  return <div style={{ paddingLeft: "15px" }}>
+    <h2>{lesson.title}</h2>
+    <ul>{lesson.topics.map(t => <li key={t.path}>{t.title}</li>)}</ul>
+  </div>
+}
+
+function Topic({ topic }) {
+  return <div style={{ paddingLeft: "15px" }}>
+    <h3>{topic.title}</h3>
+  </div>
 }
 
 const router = createBrowserRouter([
@@ -37,10 +47,10 @@ const router = createBrowserRouter([
     children: pages.map((page) => ({
       path: page.path,
       element: getElement(page),
-      children: page.name !== "lessons" ? undefined : course.lessons.map(l => ({
+      children: page.name !== "lessons" ? undefined : [...course.lessons.map(l => ({
         path: l.path,
         element: <Lesson lesson={l} />
-      }))
+      })), ...course.lessons.map(l => l.topics).flat().map(t => ({ path: t.path, element: <Topic topic={t} /> }))]
     })),
   },
 ]);

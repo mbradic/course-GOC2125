@@ -9,6 +9,7 @@ export default function Lessons() {
           {course.lessons.map((lesson) => (
             <div key={lesson.path}>
               <Link to={lesson.path}>{lesson.shortTitle}</Link>
+              <ul>{lesson.topics.map(topic=><li key={topic.path}><Link to={topic.path}>{topic.shortTitle}</Link></li>)}</ul>
             </div>
           ))}
         </nav>

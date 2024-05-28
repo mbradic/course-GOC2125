@@ -31,7 +31,11 @@
         {
           "path": "overview",
           "shortTitle": "Přehled",
-          "title": "Přehled platformy .Net"
+          "title": "Přehled platformy .Net",
+          "contetnt": [{
+            "type": "md",
+            "url" : ""
+          }]
         },
         {
           "path": "cli",
