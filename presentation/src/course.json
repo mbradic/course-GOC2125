@@ -32,28 +32,38 @@
           "path": "overview",
           "shortTitle": "Přehled",
           "title": "Přehled platformy .Net",
-          "content": [{
-            "type": "md",
-            "url" : "https://raw.githubusercontent.com/mbradic/course-GOC2125/main/presentation/public/md/dotnet/overview/index.md"
-          }]
+          "content": [
+            {
+              "type": "md",
+              "url": "https://raw.githubusercontent.com/mbradic/course-GOC2125/main/presentation/public/md/dotnet/overview/index.md"
+            }
+          ]
         },
         {
           "path": "cli",
           "shortTitle": "ditnet.exe",
           "title": "Základní nástroje příkazové řádky",
-          "content": [{
-            "type": "md",
-            "url" : "https://raw.githubusercontent.com/mbradic/course-GOC2125/main/presentation/public/md/dotnet/overview/cli.md"
-          }]
+          "content": [
+            {
+              "type": "md",
+              "url": "https://raw.githubusercontent.com/mbradic/course-GOC2125/main/presentation/public/md/dotnet/overview/cli.md"
+            }
+          ]
         },
         {
           "path": "oop",
           "shortTitle": "OOP",
           "title": "Stručný přehled základních pojmů OOP",
-          "content": [{
-            "type": "md",
-            "url" : "https://raw.githubusercontent.com/mbradic/course-GOC2125/main/presentation/public/md/dotnet/overview/oop.md"
-          }]
+          "content": [
+            {
+              "type": "md",
+              "url": "https://raw.githubusercontent.com/mbradic/course-GOC2125/main/presentation/public/md/dotnet/overview/oop.md"
+            },
+            {
+              "type": "cs",
+              "url": "https://raw.githubusercontent.com/mbradic/course-GOC2125/dotnet/oop/code/Contacts/Contacts/Person.cs"
+            }
+          ]
         },
         {
           "path": "static",
@@ -73,7 +83,12 @@
           "title": "Virtuální metody a zastiňování",
           "content": []
         },
-        { "path": "interface", "shortTitle": "interface", "title": "Interface", "content": [] }
+        {
+          "path": "interface",
+          "shortTitle": "interface",
+          "title": "Interface",
+          "content": []
+        }
       ]
     },
     {
