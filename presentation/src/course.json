@@ -24,18 +24,46 @@
   ],
   "lessons": [
     {
+      "path": "dotnet",
+      "shortTitle": ".NET",
       "title": "Stručný přehled platformy .Net a jazyka C#",
       "topics": [
-        "Přehled platformy .Net",
-        "Základní nástroje příkazové řádky",
-        "Stručný přehled základních pojmů OOP",
-        "Třída a statické členy",
-        "Dědičnost a polymorfismus",
-        "Virtuální metody a zastiňování",
-        "Interface"
+        {
+          "path": "overview",
+          "shortTitle": "Přehled",
+          "title": "Přehled platformy .Net"
+        },
+        {
+          "path": "cli",
+          "shortTitle": "ditnet.exe",
+          "title": "Základní nástroje příkazové řádky"
+        },
+        {
+          "path": "oop",
+          "shortTitle": "OOP",
+          "title": "Stručný přehled základních pojmů OOP"
+        },
+        {
+          "path": "static",
+          "shortTitle": "static",
+          "title": "Třída a statické členy"
+        },
+        {
+          "path": "inheritance",
+          "shortTitle": "Dědičnost",
+          "title": "Dědičnost a polymorfismus"
+        },
+        {
+          "path": "virtual",
+          "shortTitle": "virtual",
+          "title": "Virtuální metody a zastiňování"
+        },
+        { "path": "interface", "shortTitle": "interface", "title": "Interface" }
       ]
     },
     {
+      "path": "generics",
+      "shortTitle": "Generické typy",
       "title": "Generické datové typy",
       "topics": [
         "Generické typy a typová bezpečnost",
@@ -46,6 +74,8 @@
       ]
     },
     {
+      "path": "operator-overloading",
+      "shortTitle": "Přetěžování operátorů",
       "title": "Přetěžování operátorů operator overloading",
       "topics": [
         "Úvod do přetěžování operátorů",
@@ -53,6 +83,8 @@
       ]
     },
     {
+      "path": "events",
+      "shortTitle": "Události",
       "title": "Delegáti a události",
       "topics": [
         "Definice a použití delegátů",
@@ -61,6 +93,8 @@
       ]
     },
     {
+      "path": "whats-new",
+      "shortTitle": "Rozšíření",
       "title": "Rozšíření jazyka předchozích verzí",
       "topics": [
         "Klíčové slovo „var“",
@@ -75,7 +109,9 @@
       ]
     },
     {
-      "title": "Delegáti Lambda výrazy a LINQ",
+      "path": "delegates",
+      "shortTitle": "Přetěžování operátorů",
+      "title": "Lambda",
       "topics": [
         "Anonymní typy",
         "Lambda výrazy",
@@ -86,19 +122,25 @@
       ]
     },
     {
+      "path": "pattern-mathing",
+      "shortTitle": "Pattern Matching",
       "title": "Pattern Matching",
       "topics": [
         "Pattern Matching Overview",
-        "Switch Pattern Matching",
-        "Is Pattern Matching",
-        "Switch Pattern Expression and Expression Bodies"
+        "Switch Pattern Matching",
+        "Is Pattern Matching",
+        "Switch Pattern Expression and Expression Bodies"
       ]
     },
     {
+      "path": "records",
+      "shortTitle": "Records",
       "title": "Records",
       "topics": ["Úvod do Records", "Mutability", "Value Equality"]
     },
     {
+      "path": "assemblies",
+      "shortTitle": "Assemblies",
       "title": "Assemblies a atributy",
       "topics": [
         "Direktivy kompilátoru a podmíněná kompilace",
@@ -106,6 +148,8 @@
       ]
     },
     {
+      "path": "memory",
+      "shortTitle": "Správa paměti",
       "title": "Správa paměti a zdrojů a Garbage Collector",
       "topics": [
         "Garbage Collector",
@@ -117,6 +161,8 @@
       ]
     },
     {
+      "path": "streans",
+      "shortTitle": "Streamy",
       "title": "Čtení a zápis dat pomocí streamů",
       "topics": [
         "Úvod do streamů",
@@ -129,6 +175,8 @@
       ]
     },
     {
+      "path": "serialization",
+      "shortTitle": "Serializace",
       "title": "Serializace dat",
       "topics": [
         "Úvod do serializace",
@@ -140,4 +188,3 @@
     }
   ]
 }
-
