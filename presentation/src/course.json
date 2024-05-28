@@ -32,37 +32,45 @@
           "path": "overview",
           "shortTitle": "Přehled",
           "title": "Přehled platformy .Net",
-          "contetnt": [{
+          "content": [{
             "type": "md",
-            "url" : ""
+            "url" : "https://raw.githubusercontent.com/mbradic/course-GOC2125/main/presentation/public/md/dotnet/overview/index.md"
           }]
         },
         {
           "path": "cli",
           "shortTitle": "ditnet.exe",
-          "title": "Základní nástroje příkazové řádky"
+          "title": "Základní nástroje příkazové řádky",
+          "content": [{
+            "type": "md",
+            "url" : "https://raw.githubusercontent.com/mbradic/course-GOC2125/main/presentation/public/md/dotnet/overview/cli.md"
+          }]
         },
         {
           "path": "oop",
           "shortTitle": "OOP",
-          "title": "Stručný přehled základních pojmů OOP"
+          "title": "Stručný přehled základních pojmů OOP",
+          "content": []
         },
         {
           "path": "static",
           "shortTitle": "static",
-          "title": "Třída a statické členy"
+          "title": "Třída a statické členy",
+          "content": []
         },
         {
           "path": "inheritance",
           "shortTitle": "Dědičnost",
-          "title": "Dědičnost a polymorfismus"
+          "title": "Dědičnost a polymorfismus",
+          "content": []
         },
         {
           "path": "virtual",
           "shortTitle": "virtual",
-          "title": "Virtuální metody a zastiňování"
+          "title": "Virtuální metody a zastiňování",
+          "content": []
         },
-        { "path": "interface", "shortTitle": "interface", "title": "Interface" }
+        { "path": "interface", "shortTitle": "interface", "title": "Interface", "content": [] }
       ]
     },
     {
