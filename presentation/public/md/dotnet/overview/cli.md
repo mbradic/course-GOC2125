@@ -1,3 +1,4 @@
+```
 C:\\> dotnet --help 
 
 Usage: dotnet [runtime-options] [path-to-application] [arguments]
@@ -59,3 +60,4 @@ Additional commands from bundled tools:
   watch             Start a file watcher that runs a command when files change.
 
 Run 'dotnet [command] --help' for more information on a command.
+```
