@@ -1,0 +1,5 @@
+- Třída (class)
+- Člen třídy (member)
+    - Pole (field)
+    - Vlastnost (property)
+- Zapouzdření

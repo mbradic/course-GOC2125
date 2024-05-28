@@ -50,7 +50,10 @@
           "path": "oop",
           "shortTitle": "OOP",
           "title": "Stručný přehled základních pojmů OOP",
-          "content": []
+          "content": [{
+            "type": "md",
+            "url" : "https://raw.githubusercontent.com/mbradic/course-GOC2125/main/presentation/public/md/dotnet/overview/oop.md"
+          }]
         },
         {
           "path": "static",
