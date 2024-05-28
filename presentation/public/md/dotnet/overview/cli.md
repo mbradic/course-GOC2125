@@ -1,4 +1,4 @@
-```
+```bash
 C:\> dotnet --help 
 
 Usage: dotnet [runtime-options] [path-to-application] [arguments]
