@@ -1,0 +1,3 @@
+Jak se vyhnout tomu, aby se dvě různé věci jmenovli stejně? V rámci jednoho projektu to hlída compiler, v týmu je to věc domluvy, napříč tými v jedné organizaci je to už výzva a na globální úrovní to vyžaduje globální registr (viz DNS).
+
+Jmenné prostory jsou (ne dokonalý, ale dostatečně účinný) způsob, jak se bez takového registru obejít. Pokud je váš top-level jmenný prostor název vaší organizace, máte dostatečnou míru jistoty, že nikdo jiný 
