@@ -1,3 +1,1 @@
-﻿namespace Contacts {
-    class Person { }
-}
+﻿namespace Contacts {}

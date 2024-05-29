@@ -7,7 +7,3 @@
 - Zapouzdření
 
 ## Jmenný prostor (namespace)
-
-```csharp
-namespace Gopas.Courses {}
-```
